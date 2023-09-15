@@ -1,46 +1,40 @@
-
 # EjerciciosProgra1-2ndoA
 
 **Ejercicios Programacion I** 
 
-## [Ejercicio 1](Ejercicio1/) 
-- **Escribir un programa en Java que dados dos números los almacene en sendasvariables y muestre:**
+## [Ejercicio 1](Ejercicio1/)
+
+- **Escribir un programa en Java que dados dos números los almacene en sendas variables y muestre:**
     - Su suma
     - Su producto
-    - El resultado de comparar si el primero es mayor que el       segundo
+    - El resultado de comparar si el primero es mayor que el segundo
     - El resultado de comparar si son iguales
     - El resultado de evaluar si son pares
     - El resultado de evaluar si son divisibles
     - Si el valor del primero está comprendido en el intervalo [1,10]
     - Si ambos lo están
-    - Incrementa el primero con el valor del segundo y muestra en valor obtenido
+    - Incrementa el primero con el valor del segundo y muestra el valor obtenido
 
 ## [Ejercicio 2](Ejercicio2/)
+
 - **Escribir un programa en Java que dados tres números determine:**
     - Si pueden ser las longitudes de los lados de un triángulo
-    - En caso de ser así, que tipo de triángulo es (equilátero, isósceles o escaleno)
+    - En caso de ser así, qué tipo de triángulo es (equilátero, isósceles o escaleno)
 
 ## [Ejercicio 3](Ejercicio3/)
+
 - **El término n de la serie de Fibonacci se define:**
     - ![image](https://github.com/rubencerroo/EjerciciosProgra1-2ndoA/assets/119308526/c2bcca5d-061d-419a-9f8c-52eb73c97714)
-
 
     - Calcular la sucesión de términos de 0 a un n dado
 
 ## [Ejercicio 4](Ejercicio4/)
-- **Escribir fragmento de código en Java que dada la altura de un triángulo lodibuje con * de la forma:**
 
+- **Escribir fragmento de código en Java que dada la altura de un triángulo lo dibuje con * de la forma:**
     - 1: ![image](https://github.com/rubencerroo/EjerciciosProgra1-2ndoA/assets/119308526/cf262e78-abc8-4304-ad39-ea6a49353d54)
-
-
     - 2: ![image](https://github.com/rubencerroo/EjerciciosProgra1-2ndoA/assets/119308526/d33d4316-123d-471e-b980-a22165e16dbe)
-
-
     - 3: ![image](https://github.com/rubencerroo/EjerciciosProgra1-2ndoA/assets/119308526/f4c30479-f590-424b-8767-defce9d27e45)
-
-
     - 4: ![image](https://github.com/rubencerroo/EjerciciosProgra1-2ndoA/assets/119308526/53442dc8-5ab5-4677-8a10-398ab4159f79)
-
 
 ## [Ejercicio 5](Ejercicio5/)
 
@@ -48,18 +42,18 @@
 
     - Dados n y m
     - Dividir repetidamente n entre 2 y multiplicar m por 2
-    - Sumar las columnas de productos correspondiente a valores impares de la columnade divisiones
-    - Repetir hasta que al división de 0La suma es el producto de n y m
+    - Sumar las columnas de productos correspondientes a valores impares de la columna de divisiones
+    - Repetir hasta que la división sea 0. La suma es el producto de n y m
 
 ## [Ejercicio 6](Ejercicio6/)
 
-- **Calcular en mayor término de la sucesión de Fibonacci menor que un valordado. Indicar cual es su orden en la serie.**
+- **Calcular el mayor término de la sucesión de Fibonacci menor que un valor dado. Indicar cuál es su orden en la serie.**
 
 ## [Ejercicio 7](Ejercicio7/)
 
 - **Calcular el mayor número cuyo factorial es menor que un valor dado.**
 
-**-------------------------------------------------------------------------------------------------------------------------------------------------------------**
+---
 
 ## [MIT License](LICENSE)
 
