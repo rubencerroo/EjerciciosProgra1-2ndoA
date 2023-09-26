@@ -53,9 +53,47 @@
 
 - **Calcular el mayor número cuyo factorial es menor que un valor dado.**
 
-## [Padron](Padron/)
+## [Padron De Habitantes](Padron/)
 
-- **En Proceso.**
+Este proyecto Java se enfoca en la gestión de un padrón de habitantes utilizando clases y objetos. A lo largo de varios ejercicios, hemos desarrollado una aplicación que permite crear, listar y almacenar habitantes en un archivo CSV.
+
+## Contenido
+
+1. [Estructura del Proyecto](#estructura-del-proyecto)
+2. [Cómo Funciona](#cómo-funciona)
+3. [Instrucciones de Ejecución](#instrucciones-de-ejecución)
+
+## Estructura del Proyecto
+
+El proyecto se organiza en tres paquetes principales:
+
+- **dominio:** Contiene las clases `Habitante` y `OficinaPadron` y `Comprobacion`, que modelan a los habitantes y gestionan el padrón.
+- **interfaz:** Contiene la clase `InterfazUsuario`, que proporciona una interfaz de texto para interactuar con la aplicación.
+- **aplicacion:** Contiene la clase `Principal`, que actúa como punto de entrada para ejecutar la aplicación.
+
+## Cómo Funciona
+
+### Clase `Habitante`
+
+La clase `Habitante` representa a un habitante con tres atributos: `nombre`, `apellido1`, y `apellido2`. Los atributos son privados para mantener la encapsulación, y se proporcionan métodos públicos para establecer y obtener los valores de estos atributos.
+
+### Clase `OficinaPadron`
+
+La clase `OficinaPadron` encapsula un ArrayList de habitantes y proporciona métodos para añadir, obtener y calcular el número de habitantes en el padrón. También se incluye la funcionalidad para cargar los datos desde un archivo CSV y volcar los datos al mismo archivo.
+
+### Clase `InterfazUsuario`
+
+La clase `InterfazUsuario` ofrece una interfaz de texto simple para interactuar con el padrón de habitantes. Permite mostrar la lista de habitantes y añadir nuevos habitantes.
+
+## Instrucciones de Ejecución
+
+Para ejecutar la aplicación desde la línea de comandos en Linux, sigue estos pasos:
+
+1. Sitúate en el directorio raíz del proyecto.
+
+2. Crea un directorio `bin` si aún no existe:
+   ```mkdir bin```
+
 
 ---
 
