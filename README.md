@@ -73,15 +73,15 @@ El proyecto se organiza en tres paquetes principales:
 
 ## Cómo Funciona
 
-# Clase Habitante
+### Clase Habitante
 
 La clase `Habitante` representa a un habitante con tres atributos: `nombre`, `apellido1`, y `apellido2`. Los atributos son privados para mantener la encapsulación, y se proporcionan métodos públicos para establecer y obtener los valores de estos atributos.
 
-# Clase OficinaPadron
+### Clase OficinaPadron
 
 La clase `OficinaPadron` encapsula un ArrayList de habitantes y proporciona métodos para añadir, obtener y calcular el número de habitantes en el padrón. También se incluye la funcionalidad para cargar los datos desde un archivo CSV y volcar los datos al mismo archivo.
 
-# Clase InterfazUsuario
+### Clase InterfazUsuario
 
 La clase `InterfazUsuario` ofrece una interfaz de texto simple para interactuar con el padrón de habitantes. Permite mostrar la lista de habitantes y añadir nuevos habitantes.
 
