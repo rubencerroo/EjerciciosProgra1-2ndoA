@@ -1,4 +1,3 @@
-package Padron;
 
 public class Habitante {
     private String nombre;
