@@ -112,7 +112,7 @@ Para ejecutar la aplicación desde la línea de comandos en Linux, sigue estos p
     ```
 6. Para mostrar la lista actualizada de habitantes después de añadir uno nuevo, ejecuta nuevamente el comando del paso 4.
 
-# ¡Listo! Ahora puedes gestionar el padrón de habitantes de forma sencilla utilizando esta aplicación.
+## ¡Listo! Ahora puedes gestionar el padrón de habitantes de forma sencilla utilizando esta aplicación.
 
 ---
 
