@@ -73,15 +73,15 @@ El proyecto se organiza en tres paquetes principales:
 
 ## Cómo Funciona
 
-### Clase `Habitante`
+# Clase Habitante
 
 La clase `Habitante` representa a un habitante con tres atributos: `nombre`, `apellido1`, y `apellido2`. Los atributos son privados para mantener la encapsulación, y se proporcionan métodos públicos para establecer y obtener los valores de estos atributos.
 
-### Clase `OficinaPadron`
+# Clase OficinaPadron
 
 La clase `OficinaPadron` encapsula un ArrayList de habitantes y proporciona métodos para añadir, obtener y calcular el número de habitantes en el padrón. También se incluye la funcionalidad para cargar los datos desde un archivo CSV y volcar los datos al mismo archivo.
 
-### Clase `InterfazUsuario`
+# Clase InterfazUsuario
 
 La clase `InterfazUsuario` ofrece una interfaz de texto simple para interactuar con el padrón de habitantes. Permite mostrar la lista de habitantes y añadir nuevos habitantes.
 
@@ -96,6 +96,23 @@ Para ejecutar la aplicación desde la línea de comandos en Linux, sigue estos p
    mkdir bin
    ```
 
+3. Compila el proyecto utilizando el siguiente comando (asegúrate de que estás en el directorio raíz del proyecto):
+   ```console
+   find . -name *.java | xargs javac -cp bin -d bin
+   ```
+
+4. Para mostrar la lista de habitantes, utiliza el siguiente comando:
+   ´´´console
+   java -cp bin aplicacion.Principal mostrar
+   ´´´
+
+5. Para añadir un habitante nuevo, utiliza el siguiente comando (reemplaza los valores con los datos del habitante):
+    ```console
+    java -cp bin aplicacion.Principal anadir Nombre Apellido1 Apellido2
+    ```
+6. Para mostrar la lista actualizada de habitantes después de añadir uno nuevo, ejecuta nuevamente el comando del paso 4.
+
+# ¡Listo! Ahora puedes gestionar el padrón de habitantes de forma sencilla utilizando esta aplicación.
 
 ---
 
