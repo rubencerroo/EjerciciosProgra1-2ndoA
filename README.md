@@ -102,15 +102,15 @@ Para ejecutar la aplicación desde la línea de comandos en Linux, sigue estos p
    ```
 
 4. Para mostrar la lista de habitantes, utiliza el siguiente comando:
-   ´´´console
+   ```console
    java -cp bin aplicacion.Principal mostrar
-   ´´´
+   ```
 
-5. Para añadir un habitante nuevo, utiliza el siguiente comando (reemplaza los valores con los datos del habitante):
+6. Para añadir un habitante nuevo, utiliza el siguiente comando (reemplaza los valores con los datos del habitante):
     ```console
     java -cp bin aplicacion.Principal anadir Nombre Apellido1 Apellido2
     ```
-6. Para mostrar la lista actualizada de habitantes después de añadir uno nuevo, ejecuta nuevamente el comando del paso 4.
+7. Para mostrar la lista actualizada de habitantes después de añadir uno nuevo, ejecuta nuevamente el comando del paso 4.
 
 ## ¡Listo! Ahora puedes gestionar el padrón de habitantes de forma sencilla utilizando esta aplicación.
 
