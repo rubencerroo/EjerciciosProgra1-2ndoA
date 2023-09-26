@@ -92,7 +92,9 @@ Para ejecutar la aplicación desde la línea de comandos en Linux, sigue estos p
 1. Sitúate en el directorio raíz del proyecto.
 
 2. Crea un directorio `bin` si aún no existe:
-   ```mkdir bin```
+   ```console
+   mkdir bin
+   ```
 
 
 ---
