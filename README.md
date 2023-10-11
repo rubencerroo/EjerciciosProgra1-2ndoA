@@ -79,7 +79,7 @@ La clase `Habitante` representa a un habitante con tres atributos: `nombre`, `ap
 
 ### [Clase OficinaPadron](Padron/src/dominio/OficinaPadron.java)
 
-La clase `OficinaPadron` encapsula un ArrayList de habitantes y proporciona métodos para añadir, obtener y calcular el número de habitantes en el padrón. También se incluye la funcionalidad para cargar los datos desde un archivo CSV y volcar los datos al mismo archivo.
+La clase `OficinaPadron` encapsula un ArrayList de habitantes y proporciona métodos para añadir, obtener y calcular el número de habitantes en el padrón. También se incluye la funcionalidad para cargar los datos desde un archivo DAT serializado y volcar los datos al mismo archivo.
 
 ### [Clase InterfazUsuario](Padron/src/Interfaz/InterfazUsuario.java)
 
@@ -101,16 +101,10 @@ Para ejecutar la aplicación desde la línea de comandos en Linux, sigue estos p
    find . -name *.java | xargs javac -cp bin -d bin
    ```
 
-4. Para mostrar la lista de habitantes, utiliza el siguiente comando:
+4. Para iniciar el programa, utiliza el siguiente comando:
    ```console
-   java -cp bin aplicacion.Principal mostrar
+   java -cp bin aplicacion.Principal
    ```
-
-6. Para añadir un habitante nuevo, utiliza el siguiente comando (reemplaza los valores con los datos del habitante):
-    ```console
-    java -cp bin aplicacion.Principal anadir Nombre Apellido1 Apellido2
-    ```
-7. Para mostrar la lista actualizada de habitantes después de añadir uno nuevo, ejecuta nuevamente el comando del paso 4.
 
 ---
 
