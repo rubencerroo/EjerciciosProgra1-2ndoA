@@ -168,7 +168,7 @@ Para ejecutar la aplicación desde la línea de comandos en Linux, sigue estos p
 
 ---
 ***************************************************************************
-<img src="https://github.com/rubencerroo/EjerciciosProgra1-2ndoA/assets/119308526/86edbbfb-cbd8-401f-9efd-e856a4a58c8a" alt="Advertencia" width="50px"> **¡ADVERTENCIA: Diagramas UML generados automáticamente!**              
+<img src="https://github.com/rubencerroo/EjerciciosProgra1-2ndoA/assets/119308526/86edbbfb-cbd8-401f-9efd-e856a4a58c8a" alt="Advertencia" width="35px"> **¡ADVERTENCIA: Diagramas UML generados automáticamente!**              
 ***************************************************************************
 
 Los diagramas UML que visualiza en este programa se generan automáticamente (con un programa propio) a partir de los archivos .java y no han sido revisados manualmente. Por lo tanto, tenga en cuenta lo siguiente:
