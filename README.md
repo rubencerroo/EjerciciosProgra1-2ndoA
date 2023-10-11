@@ -106,6 +106,9 @@ Para ejecutar la aplicación desde la línea de comandos en Linux, sigue estos p
    java -cp bin aplicacion.Principal
    ```
 
+![PadronUML](https://github.com/rubencerroo/EjerciciosProgra1-2ndoA/assets/119308526/55aea918-c877-4db1-a6fc-fb43b7ca7160)
+
+
 ## [Ejercicio 21](Ejercicio21/)
 
 Este proyecto de Java se centra en la gestión de localidades, municipios y provincias, utilizando colecciones de objetos. El proyecto está organizado en paquetes y consta de varias clases que interactúan entre sí.
