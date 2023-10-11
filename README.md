@@ -106,6 +106,57 @@ Para ejecutar la aplicación desde la línea de comandos en Linux, sigue estos p
    java -cp bin aplicacion.Principal
    ```
 
+## [Ejercicio 21](Ejercicio21/)
+
+Este proyecto de Java se centra en la gestión de localidades, municipios y provincias, utilizando colecciones de objetos. El proyecto está organizado en paquetes y consta de varias clases que interactúan entre sí.
+
+## Contenido
+
+1. [Estructura del Proyecto](#estructura-del-proyecto)
+2. [Cómo Funciona](#cómo-funciona)
+3. [Instrucciones de Ejecución](#instrucciones-de-ejecución)
+
+## Estructura del Proyecto
+
+El proyecto se divide en dos paquetes principales:
+
+- **`aplicacion`:** Este paquete contiene la clase `Principal`, que sirve como punto de entrada del programa. Aquí se crea una instancia de `Localidad` y se realizan operaciones iniciales.
+
+- **`dominio`:** En este paquete se encuentran las clases que representan los conceptos de dominio del proyecto, es decir, `Localidad`, `Municipio` y `Provincia`. Cada una de estas clases tiene atributos y métodos que permiten gestionar la información de las localidades, municipios y provincias.
+
+## Funcionamiento del Proyecto
+
+El proyecto se inicia desde la clase `Principal`. A continuación, se describe cómo funciona:
+
+1. **Creación de una Localidad**: Se crea una instancia de la clase `Localidad` en la clase `Principal`. Esta localidad tiene un nombre y un número de habitantes que se establecen mediante los métodos `setNombre` y `setNumeroDeHabitantes`. Luego, se muestra la localidad por pantalla utilizando el método `toString`.
+
+2. **Municipio y Provincia**: Las clases `Municipio` y `Provincia` se utilizan como agregaciones para gestionar múltiples localidades, municipios y provincias. Los municipios pueden contener una o más localidades, y las provincias pueden contener uno o más municipios. Se pueden agregar localidades a un municipio y municipios a una provincia mediante los métodos correspondientes, como `agregarLocalidad` y `agregarMunicipio`.
+
+3. **Conteo de Habitantes**: Tanto en la clase `Municipio` como en la clase `Provincia`, se han implementado métodos para contar el número total de habitantes. En la clase `Municipio`, el método `contarHabitantes` suma los habitantes de todas las localidades que pertenecen al municipio. En la clase `Provincia`, el método `contarHabitantes` suma los habitantes de todos los municipios que pertenecen a la provincia.
+
+4. **Representación de Datos**: Se han reescrito los métodos `toString` en las clases `Localidad`, `Municipio` y `Provincia` para proporcionar representaciones legibles por humanos de estos objetos. Esto facilita la visualización de la información por pantalla.
+
+## Instrucciones de Ejecución
+
+Para ejecutar la aplicación desde la línea de comandos en Linux, sigue estos pasos:
+
+1. Sitúate en el directorio raíz del proyecto.
+
+2. Crea un directorio `bin` si aún no existe:
+   ```console
+   mkdir bin
+   ```
+
+3. Compila el proyecto utilizando el siguiente comando (asegúrate de que estás en el directorio raíz del proyecto):
+   ```console
+   find . -name *.java | xargs javac -cp bin -d bin
+   ```
+
+4. Para iniciar el programa, utiliza el siguiente comando:
+   ```console
+   java -cp bin aplicacion.Principal
+   ```
+
 ---
 
 ## [MIT License](LICENSE)
