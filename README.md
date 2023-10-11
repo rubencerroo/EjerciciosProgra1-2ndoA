@@ -119,6 +119,7 @@ Este proyecto de Java se centra en la gestión de localidades, municipios y prov
 1. [Estructura del Proyecto](#estructura-del-proyecto-21)
 2. [Cómo Funciona](#cómo-funciona-21)
 3. [Instrucciones de Ejecución](#instrucciones-de-ejecución-21)
+4. [Diagrama UML](#diagrama-uml-21)
 
 ## Estructura del Proyecto 21
 
@@ -160,6 +161,10 @@ Para ejecutar la aplicación desde la línea de comandos en Linux, sigue estos p
    ```console
    java -cp bin .\aplicacion\Principal.java
    ```
+
+## Diagrama UML 21
+![Ejercicio21UML](https://github.com/rubencerroo/EjerciciosProgra1-2ndoA/assets/119308526/ad90643c-7fad-4dc0-825a-c93936f39b1b)
+
 
 ---
 
