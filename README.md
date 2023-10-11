@@ -154,7 +154,7 @@ Para ejecutar la aplicación desde la línea de comandos en Linux, sigue estos p
 
 4. Para iniciar el programa, utiliza el siguiente comando:
    ```console
-   java -cp bin aplicacion.Principal
+   java -cp bin .\aplicacion\Principal.java
    ```
 
 ---
