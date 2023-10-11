@@ -167,7 +167,23 @@ Para ejecutar la aplicación desde la línea de comandos en Linux, sigue estos p
 
 
 ---
+***************************************************************************
+** **¡ADVERTENCIA: Diagramas UML generados automáticamente!**                  **
+***************************************************************************
 
+Los diagramas UML que visualiza en este programa se generan automáticamente (con un programa propio) a partir de los archivos .java y no han sido revisados manualmente. Por lo tanto, tenga en cuenta lo siguiente:
+
+1. Los diagramas UML se generan con fines ilustrativos y pueden contener errores, omisiones o representaciones incompletas de la estructura y relaciones del sistema.
+
+2. La precisión de la información en los diagramas UML depende de la exactitud de los datos de entrada y la implementación del programa. Pueden producirse discrepancias entre la realidad y los diagramas generados.
+
+3. Se recomienda utilizar los diagramas UML como una referencia inicial y no como la única fuente de información sobre la arquitectura del sistema. En caso de duda o para una comprensión precisa, consulte con rubencerroo
+
+Estos diagramas UML son proporcionados "tal cual" y no se garantiza su exactitud o idoneidad para ningún propósito específico. El uso de esta información está bajo su propia responsabilidad.
+
+¡Gracias por su comprensión y precaución al utilizar los diagramas UML generados automáticamente!
+
+---
 ## [MIT License](LICENSE)
 
 **Copyright (c) 2023 rubencerroo**
