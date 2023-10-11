@@ -112,11 +112,11 @@ Este proyecto de Java se centra en la gestión de localidades, municipios y prov
 
 ## Contenido
 
-1. [Estructura del Proyecto](#estructura-del-proyecto)
-2. [Cómo Funciona](#cómo-funciona)
-3. [Instrucciones de Ejecución](#instrucciones-de-ejecución)
+1. [Estructura del Proyecto](#estructura-del-proyecto-21)
+2. [Cómo Funciona](#cómo-funciona-21)
+3. [Instrucciones de Ejecución](#instrucciones-de-ejecución-21)
 
-## Estructura del Proyecto
+## Estructura del Proyecto 21
 
 El proyecto se divide en dos paquetes principales:
 
@@ -124,7 +124,7 @@ El proyecto se divide en dos paquetes principales:
 
 - **`dominio`:** En este paquete se encuentran las clases que representan los conceptos de dominio del proyecto, es decir, `Localidad`, `Municipio` y `Provincia`. Cada una de estas clases tiene atributos y métodos que permiten gestionar la información de las localidades, municipios y provincias.
 
-## Funcionamiento del Proyecto
+## Funcionamiento del Proyecto 21
 
 El proyecto se inicia desde la clase `Principal`. A continuación, se describe cómo funciona:
 
@@ -136,7 +136,7 @@ El proyecto se inicia desde la clase `Principal`. A continuación, se describe c
 
 4. **Representación de Datos**: Se han reescrito los métodos `toString` en las clases `Localidad`, `Municipio` y `Provincia` para proporcionar representaciones legibles por humanos de estos objetos. Esto facilita la visualización de la información por pantalla.
 
-## Instrucciones de Ejecución
+## Instrucciones de Ejecución 21
 
 Para ejecutar la aplicación desde la línea de comandos en Linux, sigue estos pasos:
 
