@@ -62,6 +62,7 @@ Este proyecto Java se enfoca en la gestión de un padrón de habitantes utilizan
 1. [Estructura del Proyecto](#estructura-del-proyecto)
 2. [Cómo Funciona](#cómo-funciona)
 3. [Instrucciones de Ejecución](#instrucciones-de-ejecución)
+4. [Diagrama UML](#diagrama-uml)
 
 ## Estructura del Proyecto
 
@@ -105,7 +106,7 @@ Para ejecutar la aplicación desde la línea de comandos en Linux, sigue estos p
    ```console
    java -cp bin aplicacion.Principal
    ```
-
+## Diagrama UML
 ![PadronUML](https://github.com/rubencerroo/EjerciciosProgra1-2ndoA/assets/119308526/55aea918-c877-4db1-a6fc-fb43b7ca7160)
 
 
