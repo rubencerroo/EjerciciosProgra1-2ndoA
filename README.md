@@ -163,8 +163,7 @@ Para ejecutar la aplicación desde la línea de comandos en Linux, sigue estos p
    ```
 
 ## Diagrama UML 21
-![Ejercicio21UML](https://github.com/rubencerroo/EjerciciosProgra1-2ndoA/assets/119308526/ad90643c-7fad-4dc0-825a-c93936f39b1b)
-
+![image](https://github.com/rubencerroo/EjerciciosProgra1-2ndoA/assets/119308526/0b3c2886-73a7-4668-bec3-93a3d16d143e)
 
 ---
 ***************************************************************************
