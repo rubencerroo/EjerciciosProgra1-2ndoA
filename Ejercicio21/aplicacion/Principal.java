@@ -5,6 +5,10 @@ import Ejercicio21.dominio.Municipio;
 import Ejercicio21.dominio.Provincia;
 
 public class Principal {
+    
+    /** 
+     * @param args
+     */
     public static void main(String[] args) {
         // Crear una localidad
         Localidad localidad1 = new Localidad();
