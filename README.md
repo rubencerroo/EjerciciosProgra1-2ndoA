@@ -107,7 +107,7 @@ Para ejecutar la aplicación desde la línea de comandos en Linux, sigue estos p
    java -cp bin aplicacion.Principal
    ```
 ## Diagrama UML
-![PadronUML](https://github.com/rubencerroo/EjerciciosProgra1-2ndoA/assets/119308526/55aea918-c877-4db1-a6fc-fb43b7ca7160)
+![image](https://github.com/rubencerroo/EjerciciosProgra1-2ndoA/assets/119308526/cdaaaf94-d1d0-4258-9cf7-88f666fab340)
 
 
 ## [Ejercicio 21](Ejercicio21/)
