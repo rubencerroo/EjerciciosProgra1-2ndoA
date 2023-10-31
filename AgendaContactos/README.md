@@ -1,4 +1,4 @@
-# Catalogo de Automóviles Con Herencia e interfaz Grafica
+# Agenda Contactos Con Interfaz Grafica
 
 ## Descripción
 Este programa de gestión de agenda de contactos te permite agregar, eliminar y listar contactos. Además, guarda automáticamente el agenda en un archivo serializado, lo que te permite retomar tu trabajo donde lo dejaste de forma segura.
@@ -55,12 +55,12 @@ Este programa de gestión de agenda de contactos te permite agregar, eliminar y 
 - `make completo`: Ejecuta todos los anteriores para que el programa funcione correctamente.
 
 ## Diagrama UML
-![UMLDiagram](https://github.com/rubencerroo/Gestor-Automoviles/assets/119308526/69387eca-7e1e-48df-b4c3-b422bd8aac18)
+![UMLDiagram](https://github.com/rubencerroo/EjerciciosProgra1-2ndoA/assets/119308526/e292670b-74b4-4680-9cc1-74cd4809fd8c)
 
 ## Captura De El Programa
 
 
-https://github.com/rubencerroo/Gestor-Automoviles/assets/119308526/d46cefb7-f017-476f-83b0-a5c0691a7a9b
+https://github.com/rubencerroo/EjerciciosProgra1-2ndoA/assets/119308526/5209f2aa-6d46-44cc-8809-482e331d6322
 
 
 
