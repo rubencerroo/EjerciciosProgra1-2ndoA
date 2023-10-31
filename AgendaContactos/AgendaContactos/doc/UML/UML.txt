@@ -1,0 +1,94 @@
+@startuml
+!theme blueprint
+class main.Principal {
+  + main(args: String[]): void
+}
+class dominio.Agenda {
+  - contactos: ArrayList
+  + agregarContacto(contacto: Contactos): void
+  + eliminarContacto(referencia: String): void
+  + getContactos(): List
+  - saveCatalogo(): void
+}
+class dominio.Contactos {
+  - referencia: String
+  - nombre: String
+  - primerApellido: String
+  - segundoApellido: String
+  - numeroTelefono: String
+  + getReferencia(): String
+  + setReferencia(referencia: String): void
+  + getNombre(): String
+  + setNombre(nombre: String): void
+  + getPrimerApellido(): String
+  + setModelo(primerApellido: String): void
+  + getSegundoApellido(): String
+  + setYear(segundoApellido: String): void
+  + getNumeroTelefono(): String
+  + setNumeroTelefono(numeroTelefono: String): void
+  + toString(): String
+  - generarReferenciaUnica(): String
+  + matchesSearchTerm(searchTerm: String): boolean
+}
+class interfaz.Interfaz {
+  - frame: JFrame
+  - agenda: Agenda
+  - searchField: JTextField
+  - contactoListModel: DefaultListModel
+  - showContactoDialog(): void
+  - refreshLists(): void
+  - filterLists(searchTerm: String): void
+  + main(args: String): void
+}
+
+
+!theme blueprint
+annotation java.lang.Override
+class dominio.Agenda
+class dominio.Contactos
+class interfaz.Interfaz
+class java.awt.event.ActionEvent
+class java.awt.event.ActionListener
+class java.awt.event.MouseAdapter
+class java.awt.event.MouseEvent
+class java.io.FileInputStream
+class java.io.FileOutputStream
+class java.io.IOException
+class java.io.ObjectInputStream
+class java.io.ObjectOutputStream
+class java.util.ArrayList
+class java.util.List
+class java.util.UUID
+class javax.swing.border.TitledBorder
+class javax.swing.event.DocumentEvent
+class javax.swing.event.DocumentListener
+class main.Principal
+interface java.io.Serializable
+dominio.Agenda ..> java.io.FileOutputStream
+dominio.Agenda ..> java.io.IOException
+dominio.Agenda ..> java.io.ObjectOutputStream
+dominio.Agenda ..> java.util.ArrayList
+dominio.Agenda ..> java.util.List
+dominio.Agenda ..> java.util.UUID
+dominio.Agenda --|> java.io.Serializable
+dominio.Contactos ..> java.lang.Override
+dominio.Contactos ..> java.util.UUID
+dominio.Contactos --|> java.io.Serializable
+interfaz.Interfaz ..> java.lang.Override
+interfaz.Interfaz ..> dominio.Agenda
+interfaz.Interfaz ..> dominio.Contactos
+interfaz.Interfaz ..> java.awt.event.ActionEvent
+interfaz.Interfaz ..> java.awt.event.ActionListener
+interfaz.Interfaz ..> java.awt.event.MouseAdapter
+interfaz.Interfaz ..> java.awt.event.MouseEvent
+interfaz.Interfaz ..> javax.swing.border.TitledBorder
+interfaz.Interfaz ..> javax.swing.event.DocumentEvent
+interfaz.Interfaz ..> javax.swing.event.DocumentListener
+main.Principal ..> dominio.Agenda
+main.Principal ..> interfaz.Interfaz
+main.Principal ..> java.io.FileInputStream
+main.Principal ..> java.io.FileOutputStream
+main.Principal ..> java.io.IOException
+main.Principal ..> java.io.ObjectInputStream
+main.Principal ..> java.io.ObjectOutputStream
+@enduml
