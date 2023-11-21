@@ -81,7 +81,25 @@ public class Contacto implements Serializable {
  
     public boolean matchesSearchTerm(String searchTerm) {
 
-        return nombre.contains(searchTerm) || primerApellido.contains(searchTerm) || segundoApellido.contains(searchTerm) || numeroTelefono.contains(searchTerm);
+        return nombre.contains(searchTerm) || primerApellido.contains(searchTerm)
+                || segundoApellido.contains(searchTerm) || numeroTelefono.contains(searchTerm);
+    }
+    
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj)
+            return true;
+        if (obj == null || getClass() != obj.getClass())
+            return false;
+
+        Contacto contacto = (Contacto) obj;
+
+        return referencia.equals(contacto.referencia);
+    }
+
+    @Override
+    public int hashCode() {
+        return referencia.hashCode();
     }
 
 }
