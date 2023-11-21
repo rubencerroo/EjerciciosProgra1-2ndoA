@@ -1,9 +1,13 @@
 package dominio;
 
+import java.io.Serializable;
+import java.time.LocalDate;
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
-public class BandaMusica {
+public class BandaMusica implements Serializable {
+    private static final long serialVersionUID = 1L;
     private String nombre;
     private List<Actuacion> actuaciones;
 
@@ -14,6 +18,29 @@ public class BandaMusica {
 
     public void annadirActuacion(Actuacion actuacion) {
         this.actuaciones.add(actuacion);
+    }
+
+    public List<Actuacion> getActuaciones() {
+        return actuaciones;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public boolean eliminarActuacion(LocalDate fecha) {
+        Iterator<Actuacion> iterator = actuaciones.iterator();
+        while (iterator.hasNext()) {
+            Actuacion actuacion = iterator.next();
+            if (actuacion.getFecha().equals(fecha)) {
+                iterator.remove();
+                System.out.println("Actuación eliminada con éxito.");
+                return true; 
+            }
+        }
+
+        System.out.println("No se encontró una actuación con la fecha especificada.");
+        return false; 
     }
 
     @Override

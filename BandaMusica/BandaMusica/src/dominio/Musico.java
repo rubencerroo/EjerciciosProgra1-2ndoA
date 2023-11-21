@@ -1,5 +1,6 @@
 package dominio;
 
+
 public class Musico extends Participante {
     private String instrumento;
 

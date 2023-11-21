@@ -2,7 +2,7 @@ package dominio;
 
 import java.math.BigDecimal;
 
-public class MusicoRefuerzo extends Musico {
+public class MusicoRefuerzo extends Musico{
     private BigDecimal cantidad;
 
     public MusicoRefuerzo(String nombre, String instrumento, BigDecimal cantidad) {
