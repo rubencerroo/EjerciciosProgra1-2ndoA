@@ -1,6 +1,6 @@
 package interfaz;
 
-import dominio.Contactos;
+import dominio.Contacto;
 import dominio.Agenda;
 
 import javax.swing.*;
@@ -18,7 +18,7 @@ public class Interfaz {
     private JFrame frame;
     private Agenda agenda;
     private JTextField searchField;
-    private DefaultListModel<Contactos> contactoListModel;
+    private DefaultListModel<Contacto> contactoListModel;
 
 
     public Interfaz(Agenda agenda) {
@@ -40,7 +40,7 @@ public class Interfaz {
         frame.add(searchField, gbc);
 
         contactoListModel = new DefaultListModel<>();
-        JList<Contactos> contactoList = new JList<>(contactoListModel);
+        JList<Contacto> contactoList = new JList<>(contactoListModel);
         JScrollPane contactoScrollPane = new JScrollPane(contactoList);
         TitledBorder contactoBorder = BorderFactory.createTitledBorder("Agenda");
         contactoScrollPane.setBorder(contactoBorder);
@@ -106,7 +106,7 @@ public class Interfaz {
                                 "Eliminar este Contacto?", "Confirmar Eliminación",
                                 JOptionPane.YES_NO_OPTION);
                         if (option == JOptionPane.YES_OPTION) {
-                            Contactos selectedContacto = contactoListModel.get(selectedIndex);
+                            Contacto selectedContacto = contactoListModel.get(selectedIndex);
                             agenda.eliminarContacto(selectedContacto.getReferencia());
                             contactoListModel.removeElement(selectedContacto);
                         }
@@ -125,7 +125,7 @@ public class Interfaz {
         String segundoApellido = JOptionPane.showInputDialog(frame, "Ingrese el segundo apellido:");
         String numeroTelefono = JOptionPane.showInputDialog(frame, "Ingrese el numero de Telefono (Sin +):");
 
-        Contactos contacto = new Contactos(nombre, primerApellido, segundoApellido, numeroTelefono);
+        Contacto contacto = new Contacto(nombre, primerApellido, segundoApellido, numeroTelefono);
         agenda.agregarContacto(contacto);
         contactoListModel.addElement(contacto);
     }
@@ -133,7 +133,7 @@ public class Interfaz {
     private void refreshLists() {
         contactoListModel.clear();
 
-        for (Contactos contacto : agenda.getContactos()) {
+        for (Contacto contacto : agenda.getContactos()) {
             contactoListModel.addElement(contacto);
         }
     }
@@ -141,7 +141,7 @@ public class Interfaz {
     private void filterLists(String searchTerm) {
         contactoListModel.clear();
 
-        for (Contactos contacto : agenda.getContactos()) {
+        for (Contacto contacto : agenda.getContactos()) {
             if (contacto.matchesSearchTerm(searchTerm)) {
                 contactoListModel.addElement(contacto);
             }

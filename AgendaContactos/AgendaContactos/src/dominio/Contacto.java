@@ -3,7 +3,7 @@ package dominio;
 import java.io.Serializable;
 import java.util.UUID;
 
-public class Contactos implements Serializable {
+public class Contacto implements Serializable {
     private String referencia;
     private String nombre;
     private String primerApellido;
@@ -11,7 +11,7 @@ public class Contactos implements Serializable {
     private String numeroTelefono;
 
 
-    public Contactos(String nombre, String primerApellido, String segundoApellido, String numeroTelefono) {
+    public Contacto(String nombre, String primerApellido, String segundoApellido, String numeroTelefono) {
         this.referencia = generarReferenciaUnica();
         this.nombre = nombre;
         this.primerApellido = primerApellido;

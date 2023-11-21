@@ -6,8 +6,8 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 
-import Ejercicio38.Interfaz;
 import dominio.Agenda;
+import interfaz.Interfaz;
 
 
 public class Principal {

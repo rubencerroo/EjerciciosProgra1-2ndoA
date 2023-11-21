@@ -10,7 +10,7 @@ import java.util.UUID;
 
 
 public class Agenda implements Serializable {
-    private ArrayList<Contactos> contactos;
+    private ArrayList<Contacto> contactos;
 
 
     public Agenda() {
@@ -18,7 +18,7 @@ public class Agenda implements Serializable {
     }
 
 
-    public void agregarContacto(Contactos contacto) {
+    public void agregarContacto(Contacto contacto) {
         String referencia = UUID.randomUUID().toString();
         contacto.setReferencia(referencia);
         contactos.add(contacto);
@@ -31,7 +31,7 @@ public class Agenda implements Serializable {
     }
 
 
-    public List<Contactos> getContactos() {
+    public List<Contacto> getContactos() {
         return contactos;
     }
 
